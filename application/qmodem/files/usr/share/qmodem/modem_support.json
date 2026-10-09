@@ -193,9 +193,10 @@
                     "rndis"
                 ]
             },
-            "mh5000-82m": {
-                "manufacturer_id": "12d1",
-                "manufacturer": "huawei",
+             "mh5000-82m": {
+                "usb_id": "1782:4057",
+                "manufacturer_id": "1782",
+                "manufacturer": "TD Tech",
                 "platform": "unisoc",
                 "data_interface": "usb",
                 "pdp_index": "1",
