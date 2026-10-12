@@ -60,7 +60,7 @@ define Build/Compile
 		$(PKG_BUILD_DIR)/rtp_transport.c \
 		$(TARGET_LDFLAGS) \
 		-lubus -lubox -lblobmsg_json -ljson-c -lsoxr -lasound \
-		-lwebsockets -luci -lm -lpthread
+		-lwebsockets -luci -lm -lpthread -latomic
 endef
 
 define Package/$(PKG_NAME)/install
